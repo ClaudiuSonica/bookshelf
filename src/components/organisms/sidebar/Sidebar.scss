@@ -1,0 +1,8 @@
+@import "../../../sass/variables";
+
+#sidebar {
+  background-color: $white;
+  border-top-left-radius: $border-radius;
+  border-bottom-left-radius: $border-radius;
+  overflow-x: hidden
+}

@@ -1,0 +1,44 @@
+@import "../../../sass/variables";
+
+#addBook {
+  h1 {
+    font-size: 2rem;
+    padding: 1.5rem;
+    position: absolute;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .rendered-form {
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    
+      .field-submit {
+        margin-top: 10px;
+        padding-top: 20px;
+      }
+      .btn-default {
+        background-color: $grey2;
+        color: $white;
+        border-radius: 10px;
+        border: 1px solid #d6d6d6;
+        padding: 10px;
+        font-size: 16px;
+    
+        &:hover {
+          cursor: pointer;
+          background-color: $grey4;
+          color: $grey1;
+          border: 1px solid $grey1;
+        }
+      }
+    }
+  }
+}

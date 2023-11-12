@@ -1,0 +1,36 @@
+@import "../../../sass/variables";
+
+#search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  h1 {
+    font-size: 2rem;
+    padding: 1.5rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+  }
+
+  .search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    input {
+      font-size: 1.5rem;
+      padding: 0.5rem;
+      margin-right: 0.5rem;
+      border-radius: 0.5rem;
+      border: 1px solid $grey2;
+      outline: none;
+      margin-bottom: 2rem;
+      &::placeholder {
+        color: $grey3;
+      }
+    }
+  }
+}

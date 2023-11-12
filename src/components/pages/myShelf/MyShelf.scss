@@ -1,0 +1,40 @@
+@import "../../../sass/variables";
+
+#myShelf {
+  h1 {
+    font-size: 2rem;
+    padding: 1.5rem;
+    position: absolute;
+  }
+
+  .books-shelf {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 10%;
+    margin-left: 1.4rem;
+
+    .books {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      gap: .5rem;
+
+      & button {
+        margin-top: .5rem;
+        color: red;
+        border: 1px solid red;
+        border-radius: 50%;
+        width: 1rem;
+        height: 1rem;
+        font-size: .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
